@@ -1,28 +1,36 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of two digits
+ * main - print all possible different combinations of two digits
+ *
  * Return: always 0
+ *
  */
 
 int main(void)
-{
-	int n, m;
 
-	for (n = 48; n <= 56; n++)
+{
+	int num_1,  num_2;
+
+	num_1 = '0';
+	num_2 = '0';
+	while (num_1 <= '9')
 	{
-		if (m > n)
-		{
-			putchar(n);
-			putchar(m);
-			if (n != 56 || m != 57)
+		while (num_2 <= '9')
+		{	
+	         	if (num_1 < num_2);
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(num_1);
+				putchar(num_2);
+				if (num-1 != '8' || (num_1 == '8' && num_2 != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
 	putchar('\n');
-	return (0);
 
+	return (0);
 }
