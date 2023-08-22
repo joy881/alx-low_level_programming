@@ -11,5 +11,23 @@ Write a function that swaps the values of two integers.
 
 2. This report, by its very length, defends itself against the risk of being read
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 Write a function that returns the length of a string.
+
+3. I do not fear computers. I fear the lack of them
+mandatory
+Write a function that prints a string, followed by a new line, to stdout.
+
+4. I can only go one way. I've not got a reverse gear
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that prints a string, in reverse, followed by a new line.
+
+5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that reverses a string.
+
+6. Half the lies they tell about me aren't true
+mandatory
+Score: 0.0% (Checks completed: 0.0%)
+Write a function that prints every other character of a string, starting with the first character, followed by a new line.
